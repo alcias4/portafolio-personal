@@ -25,9 +25,9 @@ import Contacto from '../components/Contacto.astro';
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body id="inicio">
+	<body id="inicio ">
 		<Menu />
-		<main class="w-full flex flex-col items-center">
+		<main class="min-w-full">
 			<slot />
 		</main>
 		<Contacto />
@@ -36,8 +36,9 @@ import Contacto from '../components/Contacto.astro';
 <style is:global>
 
 	html {
+		display: flex;
 		background: #0b1121;
-		background-size: 224px;
+		width: 100%;
 		color-scheme: dark;
 		font-family: "Preahvihear", sans-serif;
   		font-weight: 400;
