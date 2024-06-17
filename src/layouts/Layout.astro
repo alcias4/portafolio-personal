@@ -5,6 +5,7 @@ interface Props {
 
 const { title } = Astro.props;
 import Menu from '../components/Menu.astro';
+import Contacto from '../components/Contacto.astro';
 ---
 
 <!doctype html>
@@ -29,6 +30,7 @@ import Menu from '../components/Menu.astro';
 		<main class="w-full flex flex-col items-center">
 			<slot />
 		</main>
+		<Contacto />
 	</body>
 </html>
 <style is:global>
