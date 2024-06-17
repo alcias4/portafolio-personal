@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Tic Tac Toe",
+        "description": "Juega al clásico juego de Tic Tac Toe contra un amigo. Interfaz intuitiva, fácil de usar y divertida para todas las edades.",
+        "img": "proyectos/tic.png",
+        "link_page":"https://tic-tac-teo-nine.vercel.app/",
+        "link_code": "https://github.com/alcias4/tic-tac-teo"
+    },
+    {
+        "id": 2,
+        "title": "Diccionario",
+        "description": "Diccionario en línea interactivo que permite a los usuarios buscar palabras y obtener definiciones precisas, así como información adicional relevante.",
+        "img": "proyectos/diccionary.png",
+        "link_page":"https://dictionary-taupe-iota.vercel.app/",
+        "link_code": "https://github.com/alcias4/Dictionary-web-app"
+    },
+    {
+        "id": 3,
+        "title": "Buscador GitHub",
+        "description": "Busca usuarios de GitHub por nombre de usuario y obtén sus datos como nombre, biografía, repositorios, y contribuciones.",
+        "img": "proyectos/github.png",
+        "link_page":"https://search-user-github-six.vercel.app/",
+        "link_code": "https://github.com/alcias4/search-user-github"
+    }
+]

@@ -1,32 +1,34 @@
 ---
 import Socila from "./Socila.astro"
 import Habilidades from "./Habilidades.astro"
+import Proyectos from "./Proyectos.astro"
 ---
 
 
 
-<section class="w-full mt-5  px-4">
-    <div  class="w-full flex flex-col justify-center items-center gap-10 min-h-[90vh]">
+<section class="w-full mt-5  px-4 ]">
+    <div  class="w-full flex flex-col pt-[70px] justify-center items-center gap-10 min-h-[90vh]">
         <picture class="relative  boldFocus before:animate-pulse">
             <img class=""  src="me.png" alt="avatar picture">
         </picture>
-        <div class="w-full flex flex-col gap-10">
+        <div class="w-full flex flex-col gap-5">
             <picture class="flex flex-col gap-5 items-center">
                 <img class="rotate-[120deg] hidden h-[100px]" src="arrow.png" alt="">
                 <h1 class="font-bold text-4xl text-center text-balance">
                     Hola ! Yo soy <span class="text-[#265cd8]">Camilo Andrade</span>
                 </h1>
-                <Socila/>
             </picture>
             <article class="gap-5 flex flex-col text-center">
-                <p class="text-2xl text-center px-6 text-pretty">Soy un desarrollador web.!</p>
+
                 <p class="px-10">
-                    Me especializo en el desarrollo de sitios web modernos utilizando tecnologías como HTML, CSS, JavaScript y frameworks como Next.js, Astro entre otros...
+                    Soy un desarrollador web!. Me especializo en el desarrollo y mantenimiento de sitios web, ya sea en el lado del Frontend como en el de Backend.
                 </p>
             </article>
         </div>
+        <Socila/>
     </div>
     <Habilidades />
+    <Proyectos />
 </section>
 
 <style>
